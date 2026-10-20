@@ -65,20 +65,21 @@ source myenv/bin/activate
 
 pip install django djangorestframework scikit-learn numpy
 
+
 4. Run Migrations and Start the Server
 
 python manage.py migrate
 python manage.py runserver
 
+
 The server will start running locally at:
 
 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
+
 📡 API Endpoint Details
 
-
 Predict Salary Endpoint
-
 
 URL: http://127.0.0.1:8000/api/predict/
 
@@ -97,11 +98,13 @@ JSON
   "test_score": 90
 }
 
+
 Response
 
 {
   "predicted_salary": 74852.94
 }
+
 
 ## 🧪 Postman Testing
 
